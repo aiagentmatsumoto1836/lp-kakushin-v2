@@ -16,7 +16,20 @@ description: LPをCloudflare Pagesに公開するskill。Gitへのコミット�
 
 TodoWriteツールでタスクリストを作成し、順番に進める。
 
-### 1. デプロイ前チェック
+### 1. lp-context.md の読み込み
+
+まず `lp-context.md` を読み込み、デプロイ先・リポジトリ情報を確認する：
+
+```bash
+cat lp-context.md 2>/dev/null || echo "lp-context.md が見つかりません"
+```
+
+確認する項目：
+- **ターゲットURL**: 公開先のドメインが設定済みか
+- **リポジトリ**: push先のリモートリポジトリが正しいか
+- **ホスティング**: Cloudflare Pagesの設定が完了しているか
+
+### 2. デプロイ前チェック
 
 #### ファイル確認
 ```bash
