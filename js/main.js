@@ -166,11 +166,27 @@ function initFadeIn() {
 }
 
 // ============================================================
+// FAQアコーディオン
+// ============================================================
+function initFAQ() {
+  document.querySelectorAll('.faq__question').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq__item');
+      const isOpen = item.classList.contains('is-open');
+      // 他を閉じる
+      document.querySelectorAll('.faq__item.is-open').forEach(el => el.classList.remove('is-open'));
+      if (!isOpen) item.classList.add('is-open');
+    });
+  });
+}
+
+// ============================================================
 // 初期化
 // ============================================================
 document.addEventListener('DOMContentLoaded', () => {
   initSmoothScroll();
   initHeader();
   initFadeIn();
+  initFAQ();
   loadAdvisors();
 });
