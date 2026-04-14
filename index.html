@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="KAKUSHINは、変化を恐れるすべてのビジネスパーソンに、次の一歩を踏み出す力を与えます。ビジネスの仕組みを革新し、持続的な成長を実現する。">
-  <meta property="og:title" content="KAKUSHIN | あなたのビジネスに、革新の力を。">
-  <meta property="og:description" content="KAKUSHINは、変化を恐れるすべてのビジネスパーソンに、次の一歩を踏み出す力を与えます。">
+  <meta name="description" content="KAKUSHINは、大手広告代理店・事業会社出身のマーケターに1回1時間30,000円〜相談できるマーケティング顧問サービスです。初期費用なし、単月契約で、あなたのマーケティング課題を解決します。">
+  <meta property="og:title" content="KAKUSHIN | マーケティングの判断に、プロの視点を。">
+  <meta property="og:description" content="大手広告代理店・事業会社出身のマーケターに、1回1時間30,000円〜相談できるマーケティング顧問サービス。">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="images/ogp.png">
-  <title>KAKUSHIN | あなたのビジネスに、革新の力を。</title>
+  <title>KAKUSHIN | マーケティングの判断に、プロの視点を。</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -21,26 +20,30 @@
     <div class="container header__inner">
       <a href="#top" class="header__logo">KAKUSHIN</a>
       <nav class="header__nav">
-        <a href="#service">サービス</a>
-        <a href="#features">特徴</a>
-        <a href="#results">実績</a>
-        <a href="#price">料金</a>
+        <a href="#solution">サービス</a>
+        <a href="#features">選ばれる理由</a>
+        <a href="#advisors">顧問紹介</a>
+        <a href="#flow">ご利用の流れ</a>
         <a href="#faq">FAQ</a>
       </nav>
-      <a href="#cta" class="btn btn-primary btn--sm">無料相談を予約する</a>
+      <a href="#cta" class="btn btn-primary btn--sm">無料相談を申し込む</a>
     </div>
   </header>
 
   <main>
 
-    <!-- Hero -->
+    <!-- FV（ファーストビュー） -->
     <section class="hero" id="hero">
       <div class="container hero__inner">
-        <p class="hero__label">ビジネス革新サービス</p>
-        <h1 class="hero__title">あなたのビジネスに、<br>革新の力を。</h1>
-        <p class="hero__sub">KAKUSHINは、変化を恐れるすべてのビジネスパーソンに、<br>次の一歩を踏み出す力を与えます。</p>
-        <a href="#cta" class="btn btn-primary btn--lg">無料相談を予約する</a>
-        <p class="hero__note">※ 相談は完全無料・無理な勧誘は一切ありません</p>
+        <p class="hero__label">マーケティング顧問サービス</p>
+        <h1 class="hero__title">マーケティングの判断に、<br>プロの視点を。</h1>
+        <p class="hero__sub">大手広告代理店・事業会社出身のマーケターが、<br>あなたの課題に向き合います。<br class="sp-only">1回1時間、30,000円から。</p>
+        <a href="#cta" class="btn btn-primary btn--lg">無料相談を申し込む（無料）</a>
+        <ul class="hero__trust">
+          <li>完全無料・無理な勧誘なし</li>
+          <li>最短1週間で顧問との初回セッション</li>
+          <li>単月契約・初期費用ゼロ</li>
+        </ul>
       </div>
     </section>
 
@@ -48,150 +51,232 @@
     <section class="problem" id="problem">
       <div class="container">
         <h2 class="section-title">こんなお悩みはありませんか？</h2>
-        <ul class="problem__list">
-          <li class="problem__item">
-            <span class="problem__icon">😓</span>
-            <p>業務が属人化していて、自分がいないと回らない</p>
-          </li>
-          <li class="problem__item">
-            <span class="problem__icon">📉</span>
-            <p>売上・成長が頭打ちになり、打開策が見つからない</p>
-          </li>
-          <li class="problem__item">
-            <span class="problem__icon">😰</span>
-            <p>変化のスピードが速く、ビジネスモデルが時代に追いつかない</p>
-          </li>
-          <li class="problem__item">
-            <span class="problem__icon">🔄</span>
-            <p>改善しようとするたびに、社内の抵抗にあってしまう</p>
-          </li>
-        </ul>
-        <p class="problem__message">そのお悩み、<strong>KAKUSHINが解決します。</strong></p>
-      </div>
-    </section>
-
-    <!-- サービス紹介 -->
-    <section class="service" id="service">
-      <div class="container">
-        <h2 class="section-title">KAKUSHINとは</h2>
-        <p class="section-lead">KAKUSHINは、ビジネスの仕組みを根本から見直し、<br>持続的な成長を実現するための変革支援サービスです。</p>
-        <div class="service__content">
-          <div class="service__text">
-            <p>単なる「改善」ではなく、ビジネスの本質的な「革新」を支援します。現状分析から戦略立案、実行支援まで一貫してサポートし、あなたのビジネスに確かな変化をもたらします。</p>
+        <div class="problem__grid">
+          <div class="problem__item">
+            <p class="problem__num">01</p>
+            <p class="problem__text">マーケティングに課題は感じているが、<strong>何から手をつければいいか分からない</strong></p>
           </div>
-          <div class="service__image">
-            <img src="images/service.png" alt="KAKUSHINサービスイメージ" loading="lazy" width="560" height="400">
+          <div class="problem__item">
+            <p class="problem__num">02</p>
+            <p class="problem__text">広告代理店から提案を受けるが、<strong>その内容が正しいのか評価できない</strong></p>
+          </div>
+          <div class="problem__item">
+            <p class="problem__num">03</p>
+            <p class="problem__text">施策を実施しているが、<strong>本当に正しい方向で進んでいるか自信が持てない</strong></p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 特徴 -->
+    <!-- 放置リスク -->
+    <section class="risk" id="risk">
+      <div class="container">
+        <h2 class="section-title">その判断、<span class="text-accent">後回しにするほど</span>コストが積み上がります</h2>
+        <p class="section-lead">マーケティングの意思決定を「なんとなく」続けると、<br>間違った施策への投資が静かに膨らんでいきます。</p>
+        <div class="risk__grid">
+          <div class="risk__item">
+            <p class="risk__icon">📉</p>
+            <h3>広告費の無駄が積み上がる</h3>
+            <p>代理店の提案を正しく評価できないまま承認し続けることで、効果の薄い施策に予算が流れ続ける。</p>
+          </div>
+          <div class="risk__item">
+            <p class="risk__icon">⏱️</p>
+            <h3>意思決定が遅れ、機会損失が生まれる</h3>
+            <p>「詳しい人がいない」状態が続くと、判断に時間がかかりすぎ、市場機会を逃す。</p>
+          </div>
+          <div class="risk__item">
+            <p class="risk__icon">🔄</p>
+            <h3>同じ失敗を繰り返す</h3>
+            <p>プロの視点なしに施策を繰り返すと、課題の根本が見えないまま、効果のない施策が続く。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 解決策 -->
+    <section class="solution" id="solution">
+      <div class="container">
+        <p class="solution__eyebrow">解決策</p>
+        <h2 class="section-title">KAKUSHINとは</h2>
+        <p class="section-lead">大手広告代理店・大手事業会社出身のマーケターが、<br>あなたの会社のマーケティング顧問として伴走するサービスです。</p>
+        <div class="solution__content">
+          <div class="solution__cards">
+            <div class="solution__card">
+              <p class="solution__card-label">こんな使い方ができます</p>
+              <ul class="solution__list">
+                <li>代理店提案のセカンドオピニオン</li>
+                <li>マーケティング戦略の壁打ち</li>
+                <li>施策の優先順位を一緒に整理</li>
+                <li>KPI設計・効果測定の方法論</li>
+                <li>マーケティング組織・チームの相談</li>
+              </ul>
+            </div>
+          </div>
+          <div class="solution__specs">
+            <div class="solution__spec">
+              <p class="solution__spec-label">費用</p>
+              <p class="solution__spec-value">1回1時間<strong>30,000円〜</strong></p>
+            </div>
+            <div class="solution__spec">
+              <p class="solution__spec-label">契約</p>
+              <p class="solution__spec-value"><strong>単月契約</strong>・初期費用なし</p>
+            </div>
+            <div class="solution__spec">
+              <p class="solution__spec-label">顧問</p>
+              <p class="solution__spec-value">大手広告代理店・<br>大手事業会社出身のマーケター</p>
+            </div>
+          </div>
+        </div>
+        <div class="solution__cta">
+          <a href="#cta" class="btn btn-primary">無料相談を申し込む</a>
+          <p class="solution__cta-note">まずは無料相談で課題を整理しましょう</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 選ばれる理由 -->
     <section class="features" id="features">
       <div class="container">
-        <h2 class="section-title">KAKUSHINの<span class="text-accent">3つの強み</span></h2>
+        <h2 class="section-title">KAKUSHINが選ばれる<span class="text-accent">3つの理由</span></h2>
         <div class="features__grid">
           <div class="feature-card">
             <div class="feature-card__number">01</div>
-            <h3 class="feature-card__title">本質的な課題を特定</h3>
-            <p class="feature-card__text">表面的な問題ではなく、ビジネスの根本にある課題を独自のフレームワークで特定。的外れな対策に時間とコストを無駄にしません。</p>
+            <h3 class="feature-card__title">業界トップのマーケター陣</h3>
+            <p class="feature-card__text">電通・博報堂・P&Gなど大手広告代理店や事業会社のマーケティング責任者経験者が多数登録。現場で培った実践的な知見を提供します。</p>
           </div>
           <div class="feature-card">
             <div class="feature-card__number">02</div>
-            <h3 class="feature-card__title">実行まで伴走サポート</h3>
-            <p class="feature-card__text">戦略立案で終わりません。計画から実行、定着まで一気通貫でサポート。現場に寄り添い、確実に変革を実現します。</p>
+            <h3 class="feature-card__title">低コスト・低リスクで始められる</h3>
+            <p class="feature-card__text">初期費用ゼロ、単月契約、1回30,000円〜。高額な年間契約やリテナー費用は不要。まず試してから判断できます。</p>
           </div>
           <div class="feature-card">
             <div class="feature-card__number">03</div>
-            <h3 class="feature-card__title">成果にコミット</h3>
-            <p class="feature-card__text">KPIを明確に設定し、数字で成果を追い続けます。曖昧なコンサルティングではなく、結果に責任を持つパートナーです。</p>
+            <h3 class="feature-card__title">自社に合う顧問を選べる</h3>
+            <p class="feature-card__text">無料相談後、課題に合った顧問候補を複数ご紹介。事前に面談して相性を確かめてから、契約するかどうか決められます。</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 実績 -->
-    <section class="results" id="results">
+    <!-- 競合比較 -->
+    <section class="compare" id="compare">
       <div class="container">
-        <h2 class="section-title">実績・導入効果</h2>
-        <div class="results__grid">
-          <div class="result-item">
-            <p class="result-item__number"><span>150</span>社以上</p>
-            <p class="result-item__label">累計支援実績</p>
-          </div>
-          <div class="result-item">
-            <p class="result-item__number"><span>92</span>%</p>
-            <p class="result-item__label">顧客満足度</p>
-          </div>
-          <div class="result-item">
-            <p class="result-item__number">平均<span>1.8</span>倍</p>
-            <p class="result-item__label">売上向上率（6ヶ月後）</p>
-          </div>
+        <h2 class="section-title">他の選択肢との違い</h2>
+        <p class="section-lead">「プロに相談する」選択肢は複数あります。<br>KAKUSHINが選ばれる理由を比較でご確認ください。</p>
+        <div class="compare__wrap">
+          <table class="compare__table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>広告代理店<br>（フル委託）</th>
+                <th>フリーランス</th>
+                <th>社員採用</th>
+                <th class="compare__th--highlight">KAKUSHIN</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>費用</td>
+                <td>月数十万〜</td>
+                <td>月数万〜</td>
+                <td>採用・人件費大</td>
+                <td class="compare__td--highlight"><strong>月30,000円〜</strong></td>
+              </tr>
+              <tr>
+                <td>開始まで</td>
+                <td>数週間〜</td>
+                <td>数日〜</td>
+                <td>数ヶ月</td>
+                <td class="compare__td--highlight"><strong>最短1週間</strong></td>
+              </tr>
+              <tr>
+                <td>契約</td>
+                <td>長期・解約難</td>
+                <td>都度 / 不安定</td>
+                <td>無期限</td>
+                <td class="compare__td--highlight"><strong>単月・いつでも解約</strong></td>
+              </tr>
+              <tr>
+                <td>専門性</td>
+                <td>担当者による</td>
+                <td>個人差が大</td>
+                <td>社員レベル</td>
+                <td class="compare__td--highlight"><strong>大手出身プロ</strong></td>
+              </tr>
+              <tr>
+                <td>相性確認</td>
+                <td>△</td>
+                <td>○</td>
+                <td>面接のみ</td>
+                <td class="compare__td--highlight"><strong>事前面談あり</strong></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
 
-    <!-- お客様の声 -->
-    <section class="testimonials" id="testimonials">
+    <!-- 顧問紹介（CSV動的読み込み） -->
+    <section class="advisors" id="advisors">
       <div class="container">
-        <h2 class="section-title">お客様の声</h2>
-        <div class="testimonials__grid">
-          <div class="testimonial-card">
-            <p class="testimonial-card__text">「業務の属人化が解消され、初めて社員に安心して任せられるようになりました。売上も6ヶ月で1.5倍に。」</p>
-            <p class="testimonial-card__author">40代・製造業 代表取締役</p>
+        <h2 class="section-title">登録顧問のご紹介</h2>
+        <p class="section-lead">大手広告代理店・事業会社出身のマーケター陣が<br>あなたの課題に向き合います。</p>
+        <div id="advisors-grid" class="advisors__grid">
+          <div class="advisors__loading">
+            <p>顧問情報を読み込み中...</p>
           </div>
-          <div class="testimonial-card">
-            <p class="testimonial-card__text">「変えたいけど何から手をつければいいか分からなかった。KAKUSHINと出会って、初めて明確な方向性が見えました。」</p>
-            <p class="testimonial-card__author">30代・IT企業 事業部長</p>
-          </div>
-          <div class="testimonial-card">
-            <p class="testimonial-card__text">「戦略だけでなく現場の実行まで一緒に取り組んでくれる。本当の意味でのパートナーだと感じています。」</p>
-            <p class="testimonial-card__author">50代・小売業 経営者</p>
-          </div>
+        </div>
+        <div id="advisors-error" class="advisors__error" style="display:none;">
+          <p>顧問情報の読み込みに失敗しました。しばらく経ってからページを再読み込みしてください。</p>
         </div>
       </div>
     </section>
 
-    <!-- 料金 -->
-    <section class="price" id="price">
+    <!-- ご利用の流れ -->
+    <section class="flow" id="flow">
       <div class="container">
-        <h2 class="section-title">料金プラン</h2>
-        <p class="section-lead">まずは無料相談から。あなたのビジネスに最適なプランをご提案します。</p>
-        <div class="price__grid">
-          <div class="price-card">
-            <p class="price-card__name">スタータープラン</p>
-            <p class="price-card__price">¥150,000<span>/月</span></p>
-            <ul class="price-card__list">
-              <li>現状分析・課題特定</li>
-              <li>月2回のオンライン面談</li>
-              <li>改善施策の立案</li>
-              <li>メールサポート</li>
-            </ul>
-            <a href="#cta" class="btn btn-outline">相談してみる</a>
-          </div>
-          <div class="price-card price-card--recommended">
-            <p class="price-card__badge">おすすめ</p>
-            <p class="price-card__name">スタンダードプラン</p>
-            <p class="price-card__price">¥300,000<span>/月</span></p>
-            <ul class="price-card__list">
-              <li>スタータープランの全内容</li>
-              <li>月4回のオンライン面談</li>
-              <li>実行支援・伴走サポート</li>
-              <li>Slack常時サポート</li>
-            </ul>
-            <a href="#cta" class="btn btn-primary">無料相談を予約する</a>
-          </div>
-          <div class="price-card">
-            <p class="price-card__name">プレミアムプラン</p>
-            <p class="price-card__price">要相談</p>
-            <ul class="price-card__list">
-              <li>スタンダードプランの全内容</li>
-              <li>オンサイト訪問支援</li>
-              <li>組織全体の変革支援</li>
-              <li>専任コンサルタント</li>
-            </ul>
-            <a href="#cta" class="btn btn-outline">相談してみる</a>
-          </div>
+        <h2 class="section-title">ご利用の流れ</h2>
+        <p class="section-lead">無料相談から初回セッションまで、最短1週間で始められます。</p>
+        <ol class="flow__list">
+          <li class="flow__item">
+            <div class="flow__step">STEP 1</div>
+            <div class="flow__body">
+              <h3>無料相談の申し込み</h3>
+              <p>フォームに課題・状況を記入して送信。入力は1〜2分で完了します。</p>
+            </div>
+          </li>
+          <li class="flow__item">
+            <div class="flow__step">STEP 2</div>
+            <div class="flow__body">
+              <h3>初回商談（オンライン・30分）</h3>
+              <p>担当者が現在の課題をヒアリング。ご状況を詳しく聞かせていただきます。</p>
+            </div>
+          </li>
+          <li class="flow__item">
+            <div class="flow__step">STEP 3</div>
+            <div class="flow__body">
+              <h3>候補顧問のご提案</h3>
+              <p>課題・業種・規模に合わせた顧問候補を複数ご紹介します。</p>
+            </div>
+          </li>
+          <li class="flow__item">
+            <div class="flow__step">STEP 4</div>
+            <div class="flow__body">
+              <h3>顧問との事前面談</h3>
+              <p>実際に話して、相性・専門性を確認してからご契約を判断できます。</p>
+            </div>
+          </li>
+          <li class="flow__item flow__item--last">
+            <div class="flow__step">STEP 5</div>
+            <div class="flow__body">
+              <h3>契約・初回セッション開始</h3>
+              <p>ご納得いただけたら契約。すぐに初回セッションを設定できます。</p>
+            </div>
+          </li>
+        </ol>
+        <div class="flow__cta">
+          <a href="#cta" class="btn btn-primary">無料相談を申し込む</a>
+          <p class="flow__cta-note">まずは話を聞くだけでも大丈夫です</p>
         </div>
       </div>
     </section>
@@ -202,24 +287,28 @@
         <h2 class="section-title">よくある質問</h2>
         <dl class="faq__list">
           <div class="faq__item">
-            <dt class="faq__question">どんな業種・規模の会社でも対応できますか？</dt>
-            <dd class="faq__answer">はい、業種・規模を問わずご支援可能です。製造業からIT、小売業まで幅広い実績があります。まずは無料相談でお気軽にご相談ください。</dd>
+            <dt class="faq__question">費用はどのくらいかかりますか？</dt>
+            <dd class="faq__answer">1回1時間30,000円〜となります。初期費用・登録費用は一切かかりません。また単月契約のため、長期の費用コミットなしに始められます。具体的な費用は顧問の経歴・専門性によって異なりますので、無料相談でご確認ください。</dd>
           </div>
           <div class="faq__item">
-            <dt class="faq__question">契約期間に縛りはありますか？</dt>
-            <dd class="faq__answer">最低契約期間は3ヶ月となっています。それ以降は1ヶ月単位で継続・解約が可能です。</dd>
+            <dt class="faq__question">本当に効果が出るかわかりません。</dt>
+            <dd class="faq__answer">まず事前面談で顧問と課題を共有し、アプローチの方向性を確認してからご契約いただけます。また単月契約のため、セッション後に効果を感じられなければ更新しない選択肢もあります。成果にコミットするため、初回セッションで達成したい目標を明確にします。</dd>
           </div>
           <div class="faq__item">
-            <dt class="faq__question">無料相談では何を話せばいいですか？</dt>
-            <dd class="faq__answer">現在の課題やお悩みを自由にお話しください。事前の準備は不要です。ヒアリングを通じて最適なご提案をさせていただきます。</dd>
+            <dt class="faq__question">導入は面倒ではないですか？</dt>
+            <dd class="faq__answer">フォーム入力1〜2分で無料相談を申し込みいただけます。その後のやりとりはすべてオンラインで完結。社内の複雑な手続きは必要なく、最短1週間で初回セッションを開始できます。</dd>
           </div>
           <div class="faq__item">
-            <dt class="faq__question">成果が出なかった場合はどうなりますか？</dt>
-            <dd class="faq__answer">契約前に達成目標とKPIを明確に設定します。進捗が芳しくない場合は早期に方針を見直し、目標達成に向けて取り組みます。</dd>
+            <dt class="faq__question">自社の業種・規模に合う顧問はいますか？</dt>
+            <dd class="faq__answer">無料相談でヒアリングした内容をもとに、業種・課題に合った顧問候補を複数ご提案します。事前面談で実際に話してから決めていただけるので、「自社に合うかどうか」は申し込み後に安心してご確認いただけます。</dd>
           </div>
           <div class="faq__item">
-            <dt class="faq__question">すでに他社のコンサルを受けていますが、乗り換えは可能ですか？</dt>
-            <dd class="faq__answer">もちろん可能です。現在の状況をヒアリングし、スムーズに移行できるようサポートいたします。</dd>
+            <dt class="faq__question">営業されそうで不安です。</dt>
+            <dd class="faq__answer">無料相談は情報収集・課題整理を目的としています。無理な勧誘や強引なクロージングは一切行いません。ご納得いただいた上で、次のステップに進むかどうかをご判断ください。</dd>
+          </div>
+          <div class="faq__item">
+            <dt class="faq__question">解約はいつでもできますか？</dt>
+            <dd class="faq__answer">はい、単月契約のため更新しないだけで解約となります。違約金・解約手数料は一切かかりません。必要なときだけ活用するフレキシブルな使い方も可能です。</dd>
           </div>
         </dl>
       </div>
@@ -228,10 +317,15 @@
     <!-- 最終CTA -->
     <section class="cta" id="cta">
       <div class="container">
-        <h2 class="cta__title">まず、話してみませんか？</h2>
-        <p class="cta__text">無料相談は30分。あなたのビジネスの課題を一緒に整理し、<br>次の一手をご提案します。</p>
-        <a href="https://forms.gle/" class="btn btn-primary btn--lg">無料相談を予約する（無料）</a>
-        <p class="cta__note">※ 完全無料・無理な勧誘は一切ありません</p>
+        <p class="cta__eyebrow">まず、話してみませんか</p>
+        <h2 class="cta__title">プロのマーケターと、<br>30分だけ話してみてください。</h2>
+        <p class="cta__text">無料相談では、あなたの課題をヒアリングし、<br>KAKUSHINで解決できるかを率直にお伝えします。<br>「まだ検討段階」でも歓迎です。</p>
+        <a href="https://forms.gle/" class="btn btn-primary btn--lg" target="_blank" rel="noopener">無料相談を申し込む（無料）</a>
+        <ul class="cta__trust">
+          <li>完全無料・無理な勧誘なし</li>
+          <li>オンライン30分・入力1〜2分で完了</li>
+          <li>最短1週間で顧問セッション開始</li>
+        </ul>
       </div>
     </section>
 
@@ -242,9 +336,9 @@
     <div class="container footer__inner">
       <p class="footer__logo">KAKUSHIN</p>
       <nav class="footer__nav">
-        <a href="#service">サービス</a>
-        <a href="#features">特徴</a>
-        <a href="#price">料金</a>
+        <a href="#solution">サービス</a>
+        <a href="#features">選ばれる理由</a>
+        <a href="#advisors">顧問紹介</a>
         <a href="#faq">FAQ</a>
       </nav>
       <p class="footer__copy">&copy; 2026 KAKUSHIN. All rights reserved.</p>
